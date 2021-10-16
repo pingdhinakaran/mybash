@@ -1,0 +1,1 @@
+find . -type f -mtime +10 -exec /usr/bin/du -sh {} \;
